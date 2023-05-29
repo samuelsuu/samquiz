@@ -20,28 +20,28 @@ const Navbar = () => {
 
           <ul className="navbar-items">
             <li className="navbar-item">
-              <a href="#home" className="navbar-link">
+              <Link to='/'  style={{textDecoration:'none', color:'black'}}  className="navbar-link">
                 <AiOutlineHome />
-                <Link to='/'  style={{textDecoration:'none', color:'black'}} >Home</Link>
-              </a>
+                Home
+              </Link>
             </li>
             <li className="navbar-item">
-              <a href="#about" className="navbar-link">
+              <Link to='/About'  style={{textDecoration:'none', color:'black'}}  className="navbar-link">
                 <AiOutlineInfoCircle />
-                <Link to='/'  style={{textDecoration:'none', color:'black'}} >About</Link>
-              </a>
+               About
+              </Link>
             </li>
             <li className="navbar-item">
-              <a href="#feedback" className="navbar-link">
+              <Link to='/Feedback'  style={{textDecoration:'none', color:'black'}}  className="navbar-link">
                 <AiOutlineComment />
-                <Link to='/' style={{textDecoration:'none', color:'black'}}>Feedback</Link>
-              </a>
+                Feedback
+              </Link>
             </li>
             <li className="navbar-item">
-              <a href="#support" className="navbar-link">
+              <Link to='/'  style={{textDecoration:'none', color:'black'}}  className="navbar-link">
                 <AiOutlineQuestionCircle />
-                <Link to='/' style={{textDecoration:'none', color:'black'}}>Support</Link>
-              </a>
+                Support
+              </Link>
             </li>
           </ul>
         </div>

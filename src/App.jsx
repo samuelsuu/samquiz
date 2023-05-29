@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Nav from './component/Navbar/Nav'
-import Hero from './component/Hero/Hero'
+import Home from './pages/Homepage'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <div className='App'>
-      <Nav />
-      <Hero />
+      <Home />
     </div>
   )
 }

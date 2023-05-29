@@ -1,0 +1,60 @@
+section{
+    padding: 30px 0;
+}
+
+.fee{
+    display: flex;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    text-align: center;
+    color: rgb(187,26,24);
+    font-size: 20px;
+    font-weight: 300px;
+}
+span{
+    color: rgb(67,104,159);
+}
+.feed{
+    padding-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+input{
+    margin-top: 20px;
+    padding: 5px 30px;
+    width: 50vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    outline: none;
+}
+.sub{
+    padding: 5px 10px;
+    background: rgb(187,26,24);
+    border-radius: 20px;
+    width: 100px;
+    color: rgb(222,222,222);
+    cursor: pointer;
+    border-color: rgb(67,104,159);
+}
+.sub:hover{
+    background-color: rgb(67,104,159);
+}
+
+
+@media (max-width: 985px) {
+    .fee{
+        display: flex;
+        flex-direction: column;
+    }
+}
